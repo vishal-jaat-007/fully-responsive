@@ -15,7 +15,6 @@
     margin-right: auto !important;
     padding-left: 12px !important;
     padding-right: 12px !important;
-    font-family: Poppins !important;
 }
 
 .line_blue {
@@ -51,6 +50,10 @@
     max-width: 765px !important;
 }
 
+.jat :hover {
+    background-color: blue;
+}
+
 /* .........................................nav_classes..................................... */
 .bg {
     background-image: url(/assets/image/svg/bg_1.png);
@@ -64,7 +67,7 @@
 }
 
 .mb_6 {
-    margin-bottom: 5.8%  !important;
+    margin-bottom: 5.8% !important;
 }
 
 .background_image {
@@ -167,9 +170,6 @@
     font-weight: 500;
 }
 
-ul li {
-    cursor: pointer;
-}
 
 .clr_rgb {
     color: rgba(255, 255, 255, 0.7);
@@ -287,19 +287,6 @@ ul li {
 
 }
 
-/* .input_class_2 {
-    border-radius: 8px !important;
-    border-color: #00000066;
-    outline: none;
-}
-
-.input_class_3 {
-    border-radius: 8px !important;
-    border-color: #00000066;
-    padding-top: 5px;
-    outline: none;
-} */
-
 .btn_last {
     background: #2C49FE;
     border-radius: 23px;
@@ -407,10 +394,6 @@ ul li {
 }
 
 @media (max-width:992px) {
-    .dis_xsm_none {
-        display: none;
-    }
-
     :root {
         /* font_size */
         --fs-7xl: 50px;
@@ -425,6 +408,14 @@ ul li {
         --fs-sm: 14px;
         --fs-ss: 12px;
     }
+
+}
+
+@media (max-width:992px) {
+    .dis_xsm_none {
+        display: none;
+    }
+
 
     .GO {
         padding: 10px 19px !important;
@@ -523,6 +514,9 @@ ul li {
         --fs-sm: 14px;
         --fs-ss: 12px;
     }
+}
+
+@media (max-width:576px) {
 
     .flex_clm_xsm {
         flex-direction: column;
